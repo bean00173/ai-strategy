@@ -38,6 +38,7 @@ public class GameManager : MonoBehaviour
     {
         board = BoardManager.Instance;        
         board.SetupBoard();
+
         minimax = Minimax.Instance;
 
     }
